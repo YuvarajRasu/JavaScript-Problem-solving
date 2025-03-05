@@ -6,7 +6,7 @@ console.log("The reversed string is :", reversedString);
 function reverseString(str) {
   let reversedString = "";
 
-  for (let i = original_string.length - 1; i >= 0; i--) {
+  for (let i = str.length - 1; i >= 0; i--) {
     reversedString += str[i];
   }
 
